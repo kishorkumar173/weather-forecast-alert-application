@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-19T17:07:49.059817+00:00",
+    "city": "Mumbai",
+    "system": "Weather Forecast & Alert Application",
+    "version": "1.0.0"
+  },
+  "weather": {
+    "city": "Mumbai",
+    "country": "IN",
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.8777
+    },
+    "current": {
+      "temperature": 39.4,
+      "feels_like": 46.2,
+      "temp_min": 32.0,
+      "temp_max": 40.1,
+      "humidity": 88,
+      "pressure": 1008,
+      "wind_speed_kmh": 24.5,
+      "wind_gust_kmh": 34.0,
+      "wind_direction_deg": 240,
+      "weather_condition": "Haze / Extreme Heat",
+      "weather_code": 721,
+      "rain_1h_mm": 0.0,
+      "cloudiness_pct": 30,
+      "visibility_meters": 3500,
+      "uv_index": 9.5,
+      "aqi_pm25": 142.0,
+      "timestamp": "2026-11-19T14:30:00Z"
+    },
+    "forecast_5d": [
+      {
+        "day": "Day 1",
+        "date": "2026-11-20",
+        "temp_max": 39.5,
+        "temp_min": 31.0,
+        "humidity": 87,
+        "condition": "Heatwave",
+        "rain_prob_pct": 10,
+        "rain_volume_mm": 0.0,
+        "wind_kmh": 22.0
+      },
+      {
+        "day": "Day 2",
+        "date": "2026-11-21",
+        "temp_max": 40.2,
+        "temp_min": 32.5,
+        "humidity": 89,
+        "condition": "Severe Heatwave",
+        "rain_prob_pct": 15,
+        "rain_volume_mm": 0.0,
+        "wind_kmh": 26.0
+      },
+      {
+        "day": "Day 3",
+        "date": "2026-11-22",
+        "temp_max": 38.0,
+        "temp_min": 30.0,
+        "humidity": 85,
+        "condition": "Hot & Humid",
+        "rain_prob_pct": 30,
+        "rain_volume_mm": 2.5,
+        "wind_kmh": 20.0
+      },
+      {
+        "day": "Day 4",
+        "date": "2026-11-23",
+        "temp_max": 35.5,
+        "temp_min": 28.0,
+        "humidity": 92,
+        "condition": "Thunderstorm",
+        "rain_prob_pct": 85,
+        "rain_volume_mm": 28.0,
+        "wind_kmh": 42.0
+      },
+      {
+        "day": "Day 5",
+        "date": "2026-11-24",
+        "temp_max": 33.0,
+        "temp_min": 27.0,
+        "humidity": 90,
+        "condition": "Heavy Rain",
+        "rain_prob_pct": 90,
+        "rain_volume_mm": 45.0,
+        "wind_kmh": 38.0
+      }
+    ],
+    "source": "Virtual Simulator (Cached Benchmark)",
+    "data_source": "Virtual Simulator (Offline/Keyless Mode)"
+  },
+  "alerts": [
+    {
+      "alert_id": "HEAT-CRITICAL-Unknown City",
+      "category": "TEMPERATURE",
+      "severity": "CRITICAL",
+      "title": "Extreme Severe Heatwave in Unknown City",
+      "description": "Recorded temperature 39.4\u00b0C (Heat Index: 88.0\u00b0C). High danger of heatstroke and dehydration.",
+      "trigger_metric": "temperature_c",
+      "trigger_value": 39.4,
+      "threshold_value": 42.0,
+      "affected_sectors": [
+        "Citizens",
+        "Logistics",
+        "Power Grid",
+        "Construction"
+      ],
+      "recommendation": "Suspend outdoor manual labor between 11 AM - 4 PM. Ensure mandatory hydration breaks and check cooling for perishable cold-chain shipments."
+    },
+    {
+      "alert_id": "HUMID-MODERATE-Unknown City",
+      "category": "HUMIDITY",
+      "severity": "MODERATE",
+      "title": "High Humidity & Heat Discomfort in Unknown City",
+      "description": "Relative humidity 88.0% combined with 39.4\u00b0C impedes sweat evaporation.",
+      "trigger_metric": "humidity_pct",
+      "trigger_value": 88.0,
+      "threshold_value": 85.0,
+      "affected_sectors": [
+        "Citizens",
+        "Athletics",
+        "Warehouses"
+      ],
+      "recommendation": "Maintain indoor ventilation and dehumidification in pharmaceutical/grain storage facilities."
+    },
+    {
+      "alert_id": "AQI-HIGH-Unknown City",
+      "category": "AIR_QUALITY",
+      "severity": "HIGH",
+      "title": "Unhealthy Air Quality (AQI PM2.5) in Unknown City",
+      "description": "Particulate matter PM2.5 level at 142.0 \u00b5g/m\u00b3. Exceeds safe respiratory guidelines.",
+      "trigger_metric": "aqi_pm25",
+      "trigger_value": 142.0,
+      "threshold_value": 100.0,
+      "affected_sectors": [
+        "Citizens",
+        "Elderly & Children",
+        "Schools"
+      ],
+      "recommendation": "Wear N95 protective masks outdoors; operate HEPA air purifiers in schools and offices."
+    }
+  ]
+}

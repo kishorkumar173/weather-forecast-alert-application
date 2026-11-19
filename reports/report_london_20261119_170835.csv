@@ -1,0 +1,8 @@
+record_type,city,period,temperature_c,feels_like_c,humidity_pct,pressure_hpa,wind_kmh,rain_mm,condition,alert_severity,alert_title,alert_recommendation
+CURRENT_OBSERVATION,London,Current,11.2,8.7,92,1002,32.0,14.8,Continuous Rain,,,
+FORECAST,London,Day 1 (2026-11-20),Max 12.0 / Min 8.5,,90,,34.0,18.0,Moderate Rain,,,
+FORECAST,London,Day 2 (2026-11-21),Max 10.5 / Min 6.0,,88,,28.0,11.0,Showers,,,
+FORECAST,London,Day 3 (2026-11-22),Max 9.0 / Min 4.5,,82,,22.0,3.0,Overcast,,,
+FORECAST,London,Day 4 (2026-11-23),Max 8.0 / Min 3.0,,80,,25.0,0.5,Chilly & Breezy,,,
+FORECAST,London,Day 5 (2026-11-24),Max 7.5 / Min 2.0,,84,,20.0,4.0,Cold Drizzle,,,
+ALERT_TRIGGER,London,Active Hazard Alert,,,,,,,RAIN,MODERATE,Moderate Rain Alert in London,Carry waterproof gear; delivery riders should reduce driving speed to avoid hydroplaning.

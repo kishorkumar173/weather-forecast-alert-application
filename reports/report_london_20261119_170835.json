@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-19T17:08:35.119640+00:00",
+    "city": "London",
+    "system": "Weather Forecast & Alert Application",
+    "version": "1.0.0"
+  },
+  "weather": {
+    "city": "London",
+    "country": "GB",
+    "coordinates": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "current": {
+      "temperature": 11.2,
+      "feels_like": 8.7,
+      "temp_min": 9.0,
+      "temp_max": 13.0,
+      "humidity": 92,
+      "pressure": 1002,
+      "wind_speed_kmh": 32.0,
+      "wind_gust_kmh": 46.0,
+      "wind_direction_deg": 190,
+      "weather_condition": "Continuous Rain",
+      "weather_code": 501,
+      "rain_1h_mm": 14.8,
+      "cloudiness_pct": 98,
+      "visibility_meters": 6000,
+      "uv_index": 2.0,
+      "aqi_pm25": 28.0,
+      "timestamp": "2026-11-19T14:30:00Z"
+    },
+    "forecast_5d": [
+      {
+        "day": "Day 1",
+        "date": "2026-11-20",
+        "temp_max": 12.0,
+        "temp_min": 8.5,
+        "humidity": 90,
+        "condition": "Moderate Rain",
+        "rain_prob_pct": 95,
+        "rain_volume_mm": 18.0,
+        "wind_kmh": 34.0
+      },
+      {
+        "day": "Day 2",
+        "date": "2026-11-21",
+        "temp_max": 10.5,
+        "temp_min": 6.0,
+        "humidity": 88,
+        "condition": "Showers",
+        "rain_prob_pct": 75,
+        "rain_volume_mm": 11.0,
+        "wind_kmh": 28.0
+      },
+      {
+        "day": "Day 3",
+        "date": "2026-11-22",
+        "temp_max": 9.0,
+        "temp_min": 4.5,
+        "humidity": 82,
+        "condition": "Overcast",
+        "rain_prob_pct": 40,
+        "rain_volume_mm": 3.0,
+        "wind_kmh": 22.0
+      },
+      {
+        "day": "Day 4",
+        "date": "2026-11-23",
+        "temp_max": 8.0,
+        "temp_min": 3.0,
+        "humidity": 80,
+        "condition": "Chilly & Breezy",
+        "rain_prob_pct": 20,
+        "rain_volume_mm": 0.5,
+        "wind_kmh": 25.0
+      },
+      {
+        "day": "Day 5",
+        "date": "2026-11-24",
+        "temp_max": 7.5,
+        "temp_min": 2.0,
+        "humidity": 84,
+        "condition": "Cold Drizzle",
+        "rain_prob_pct": 50,
+        "rain_volume_mm": 4.0,
+        "wind_kmh": 20.0
+      }
+    ],
+    "source": "Virtual Simulator (Cached Benchmark)",
+    "data_source": "Virtual Simulator (Offline/Keyless Mode)"
+  },
+  "alerts": [
+    {
+      "alert_id": "RAIN-MODERATE-London",
+      "category": "RAIN",
+      "severity": "MODERATE",
+      "title": "Moderate Rain Alert in London",
+      "description": "Precipitation measured at 14.8 mm/hr. Wet roadway conditions.",
+      "trigger_metric": "rain_1h_mm",
+      "trigger_value": 14.8,
+      "threshold_value": 5.0,
+      "affected_sectors": [
+        "Travelers",
+        "Outdoor Events",
+        "Delivery Fleets"
+      ],
+      "recommendation": "Carry waterproof gear; delivery riders should reduce driving speed to avoid hydroplaning."
+    }
+  ]
+}

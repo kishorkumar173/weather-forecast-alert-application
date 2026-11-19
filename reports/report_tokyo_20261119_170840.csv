@@ -1,0 +1,9 @@
+record_type,city,period,temperature_c,feels_like_c,humidity_pct,pressure_hpa,wind_kmh,rain_mm,condition,alert_severity,alert_title,alert_recommendation
+CURRENT_OBSERVATION,Tokyo,Current,18.5,16.0,68,988,54.0,22.5,Severe Gale / Typhoon Outskirts,,,
+FORECAST,Tokyo,Day 1 (2026-11-20),Max 19.0 / Min 15.0,,75,,62.0,65.0,Typhoon Storm,,,
+FORECAST,Tokyo,Day 2 (2026-11-21),Max 21.0 / Min 14.0,,60,,45.0,5.0,Windy Clearing,,,
+FORECAST,Tokyo,Day 3 (2026-11-22),Max 22.5 / Min 13.0,,55,,18.0,0.0,Sunny,,,
+FORECAST,Tokyo,Day 4 (2026-11-23),Max 20.0 / Min 12.0,,58,,15.0,0.0,Pleasant,,,
+FORECAST,Tokyo,Day 5 (2026-11-24),Max 18.0 / Min 11.0,,62,,14.0,0.0,Clear Sky,,,
+ALERT_TRIGGER,Tokyo,Active Hazard Alert,,,,,,,RAIN,CRITICAL,Torrential Rainfall & Flash Flood Hazard in Tokyo,Avoid low-lying underpasses and waterlogged routes. Reroute logistics freight and activate stormwater pumping stations.
+ALERT_TRIGGER,Tokyo,Active Hazard Alert,,,,,,,WIND,HIGH,Strong High Wind Advisory in Tokyo,High-profile vehicles (trucks/buses) must exercise caution against highway crosswinds.

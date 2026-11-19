@@ -1,0 +1,10 @@
+record_type,city,period,temperature_c,feels_like_c,humidity_pct,pressure_hpa,wind_kmh,rain_mm,condition,alert_severity,alert_title,alert_recommendation
+CURRENT_OBSERVATION,Mumbai,Current,39.4,46.2,88,1008,24.5,0.0,Haze / Extreme Heat,,,
+FORECAST,Mumbai,Day 1 (2026-11-20),Max 39.5 / Min 31.0,,87,,22.0,0.0,Heatwave,,,
+FORECAST,Mumbai,Day 2 (2026-11-21),Max 40.2 / Min 32.5,,89,,26.0,0.0,Severe Heatwave,,,
+FORECAST,Mumbai,Day 3 (2026-11-22),Max 38.0 / Min 30.0,,85,,20.0,2.5,Hot & Humid,,,
+FORECAST,Mumbai,Day 4 (2026-11-23),Max 35.5 / Min 28.0,,92,,42.0,28.0,Thunderstorm,,,
+FORECAST,Mumbai,Day 5 (2026-11-24),Max 33.0 / Min 27.0,,90,,38.0,45.0,Heavy Rain,,,
+ALERT_TRIGGER,Mumbai,Active Hazard Alert,,,,,,,TEMPERATURE,CRITICAL,Extreme Severe Heatwave in Unknown City,Suspend outdoor manual labor between 11 AM - 4 PM. Ensure mandatory hydration breaks and check cooling for perishable cold-chain shipments.
+ALERT_TRIGGER,Mumbai,Active Hazard Alert,,,,,,,HUMIDITY,MODERATE,High Humidity & Heat Discomfort in Unknown City,Maintain indoor ventilation and dehumidification in pharmaceutical/grain storage facilities.
+ALERT_TRIGGER,Mumbai,Active Hazard Alert,,,,,,,AIR_QUALITY,HIGH,Unhealthy Air Quality (AQI PM2.5) in Unknown City,Wear N95 protective masks outdoors; operate HEPA air purifiers in schools and offices.

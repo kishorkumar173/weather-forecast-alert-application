@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-19T17:08:40.103913+00:00",
+    "city": "Tokyo",
+    "system": "Weather Forecast & Alert Application",
+    "version": "1.0.0"
+  },
+  "weather": {
+    "city": "Tokyo",
+    "country": "JP",
+    "coordinates": {
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "current": {
+      "temperature": 18.5,
+      "feels_like": 16.0,
+      "temp_min": 16.0,
+      "temp_max": 20.0,
+      "humidity": 68,
+      "pressure": 988,
+      "wind_speed_kmh": 54.0,
+      "wind_gust_kmh": 72.0,
+      "wind_direction_deg": 60,
+      "weather_condition": "Severe Gale / Typhoon Outskirts",
+      "weather_code": 905,
+      "rain_1h_mm": 22.5,
+      "cloudiness_pct": 100,
+      "visibility_meters": 4500,
+      "uv_index": 1.0,
+      "aqi_pm25": 35.0,
+      "timestamp": "2026-11-19T14:30:00Z"
+    },
+    "forecast_5d": [
+      {
+        "day": "Day 1",
+        "date": "2026-11-20",
+        "temp_max": 19.0,
+        "temp_min": 15.0,
+        "humidity": 75,
+        "condition": "Typhoon Storm",
+        "rain_prob_pct": 100,
+        "rain_volume_mm": 65.0,
+        "wind_kmh": 62.0
+      },
+      {
+        "day": "Day 2",
+        "date": "2026-11-21",
+        "temp_max": 21.0,
+        "temp_min": 14.0,
+        "humidity": 60,
+        "condition": "Windy Clearing",
+        "rain_prob_pct": 30,
+        "rain_volume_mm": 5.0,
+        "wind_kmh": 45.0
+      },
+      {
+        "day": "Day 3",
+        "date": "2026-11-22",
+        "temp_max": 22.5,
+        "temp_min": 13.0,
+        "humidity": 55,
+        "condition": "Sunny",
+        "rain_prob_pct": 5,
+        "rain_volume_mm": 0.0,
+        "wind_kmh": 18.0
+      },
+      {
+        "day": "Day 4",
+        "date": "2026-11-23",
+        "temp_max": 20.0,
+        "temp_min": 12.0,
+        "humidity": 58,
+        "condition": "Pleasant",
+        "rain_prob_pct": 10,
+        "rain_volume_mm": 0.0,
+        "wind_kmh": 15.0
+      },
+      {
+        "day": "Day 5",
+        "date": "2026-11-24",
+        "temp_max": 18.0,
+        "temp_min": 11.0,
+        "humidity": 62,
+        "condition": "Clear Sky",
+        "rain_prob_pct": 5,
+        "rain_volume_mm": 0.0,
+        "wind_kmh": 14.0
+      }
+    ],
+    "source": "Virtual Simulator (Cached Benchmark)",
+    "data_source": "Virtual Simulator (Offline/Keyless Mode)"
+  },
+  "alerts": [
+    {
+      "alert_id": "RAIN-CRITICAL-Tokyo",
+      "category": "RAIN",
+      "severity": "CRITICAL",
+      "title": "Torrential Rainfall & Flash Flood Hazard in Tokyo",
+      "description": "Precipitation intensity 22.5 mm/hr. Severe waterlogging and transit disruption expected.",
+      "trigger_metric": "rain_1h_mm",
+      "trigger_value": 22.5,
+      "threshold_value": 15.0,
+      "affected_sectors": [
+        "Logistics",
+        "Urban Drainage",
+        "Commuters",
+        "Aviation"
+      ],
+      "recommendation": "Avoid low-lying underpasses and waterlogged routes. Reroute logistics freight and activate stormwater pumping stations."
+    },
+    {
+      "alert_id": "WIND-HIGH-Tokyo",
+      "category": "WIND",
+      "severity": "HIGH",
+      "title": "Strong High Wind Advisory in Tokyo",
+      "description": "Wind speeds reaching 54.0 km/h.",
+      "trigger_metric": "wind_speed_kmh",
+      "trigger_value": 54.0,
+      "threshold_value": 40.0,
+      "affected_sectors": [
+        "Aviation",
+        "Highway Transport"
+      ],
+      "recommendation": "High-profile vehicles (trucks/buses) must exercise caution against highway crosswinds."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "cities": {
+    "Mumbai": {
+      "city": "Mumbai",
+      "country": "IN",
+      "coordinates": {"lat": 19.0760, "lon": 72.8777},
+      "current": {
+        "temperature": 39.4,
+        "feels_like": 46.2,
+        "temp_min": 32.0,
+        "temp_max": 40.1,
+        "humidity": 88,
+        "pressure": 1008,
+        "wind_speed_kmh": 24.5,
+        "wind_gust_kmh": 34.0,
+        "wind_direction_deg": 240,
+        "weather_condition": "Haze / Extreme Heat",
+        "weather_code": 721,
+        "rain_1h_mm": 0.0,
+        "cloudiness_pct": 30,
+        "visibility_meters": 3500,
+        "uv_index": 9.5,
+        "aqi_pm25": 142.0,
+        "timestamp": "2026-11-19T14:30:00Z"
+      },
+      "forecast_5d": [
+        {"day": "Day 1", "date": "2026-11-20", "temp_max": 39.5, "temp_min": 31.0, "humidity": 87, "condition": "Heatwave", "rain_prob_pct": 10, "rain_volume_mm": 0.0, "wind_kmh": 22.0},
+        {"day": "Day 2", "date": "2026-11-21", "temp_max": 40.2, "temp_min": 32.5, "humidity": 89, "condition": "Severe Heatwave", "rain_prob_pct": 15, "rain_volume_mm": 0.0, "wind_kmh": 26.0},
+        {"day": "Day 3", "date": "2026-11-22", "temp_max": 38.0, "temp_min": 30.0, "humidity": 85, "condition": "Hot & Humid", "rain_prob_pct": 30, "rain_volume_mm": 2.5, "wind_kmh": 20.0},
+        {"day": "Day 4", "date": "2026-11-23", "temp_max": 35.5, "temp_min": 28.0, "humidity": 92, "condition": "Thunderstorm", "rain_prob_pct": 85, "rain_volume_mm": 28.0, "wind_kmh": 42.0},
+        {"day": "Day 5", "date": "2026-11-24", "temp_max": 33.0, "temp_min": 27.0, "humidity": 90, "condition": "Heavy Rain", "rain_prob_pct": 90, "rain_volume_mm": 45.0, "wind_kmh": 38.0}
+      ]
+    },
+    "London": {
+      "city": "London",
+      "country": "GB",
+      "coordinates": {"lat": 51.5074, "lon": -0.1278},
+      "current": {
+        "temperature": 11.2,
+        "feels_like": 8.7,
+        "temp_min": 9.0,
+        "temp_max": 13.0,
+        "humidity": 92,
+        "pressure": 1002,
+        "wind_speed_kmh": 32.0,
+        "wind_gust_kmh": 46.0,
+        "wind_direction_deg": 190,
+        "weather_condition": "Continuous Rain",
+        "weather_code": 501,
+        "rain_1h_mm": 14.8,
+        "cloudiness_pct": 98,
+        "visibility_meters": 6000,
+        "uv_index": 2.0,
+        "aqi_pm25": 28.0,
+        "timestamp": "2026-11-19T14:30:00Z"
+      },
+      "forecast_5d": [
+        {"day": "Day 1", "date": "2026-11-20", "temp_max": 12.0, "temp_min": 8.5, "humidity": 90, "condition": "Moderate Rain", "rain_prob_pct": 95, "rain_volume_mm": 18.0, "wind_kmh": 34.0},
+        {"day": "Day 2", "date": "2026-11-21", "temp_max": 10.5, "temp_min": 6.0, "humidity": 88, "condition": "Showers", "rain_prob_pct": 75, "rain_volume_mm": 11.0, "wind_kmh": 28.0},
+        {"day": "Day 3", "date": "2026-11-22", "temp_max": 9.0, "temp_min": 4.5, "humidity": 82, "condition": "Overcast", "rain_prob_pct": 40, "rain_volume_mm": 3.0, "wind_kmh": 22.0},
+        {"day": "Day 4", "date": "2026-11-23", "temp_max": 8.0, "temp_min": 3.0, "humidity": 80, "condition": "Chilly & Breezy", "rain_prob_pct": 20, "rain_volume_mm": 0.5, "wind_kmh": 25.0},
+        {"day": "Day 5", "date": "2026-11-24", "temp_max": 7.5, "temp_min": 2.0, "humidity": 84, "condition": "Cold Drizzle", "rain_prob_pct": 50, "rain_volume_mm": 4.0, "wind_kmh": 20.0}
+      ]
+    },
+    "Tokyo": {
+      "city": "Tokyo",
+      "country": "JP",
+      "coordinates": {"lat": 35.6762, "lon": 139.6503},
+      "current": {
+        "temperature": 18.5,
+        "feels_like": 16.0,
+        "temp_min": 16.0,
+        "temp_max": 20.0,
+        "humidity": 68,
+        "pressure": 988,
+        "wind_speed_kmh": 54.0,
+        "wind_gust_kmh": 72.0,
+        "wind_direction_deg": 60,
+        "weather_condition": "Severe Gale / Typhoon Outskirts",
+        "weather_code": 905,
+        "rain_1h_mm": 22.5,
+        "cloudiness_pct": 100,
+        "visibility_meters": 4500,
+        "uv_index": 1.0,
+        "aqi_pm25": 35.0,
+        "timestamp": "2026-11-19T14:30:00Z"
+      },
+      "forecast_5d": [
+        {"day": "Day 1", "date": "2026-11-20", "temp_max": 19.0, "temp_min": 15.0, "humidity": 75, "condition": "Typhoon Storm", "rain_prob_pct": 100, "rain_volume_mm": 65.0, "wind_kmh": 62.0},
+        {"day": "Day 2", "date": "2026-11-21", "temp_max": 21.0, "temp_min": 14.0, "humidity": 60, "condition": "Windy Clearing", "rain_prob_pct": 30, "rain_volume_mm": 5.0, "wind_kmh": 45.0},
+        {"day": "Day 3", "date": "2026-11-22", "temp_max": 22.5, "temp_min": 13.0, "humidity": 55, "condition": "Sunny", "rain_prob_pct": 5, "rain_volume_mm": 0.0, "wind_kmh": 18.0},
+        {"day": "Day 4", "date": "2026-11-23", "temp_max": 20.0, "temp_min": 12.0, "humidity": 58, "condition": "Pleasant", "rain_prob_pct": 10, "rain_volume_mm": 0.0, "wind_kmh": 15.0},
+        {"day": "Day 5", "date": "2026-11-24", "temp_max": 18.0, "temp_min": 11.0, "humidity": 62, "condition": "Clear Sky", "rain_prob_pct": 5, "rain_volume_mm": 0.0, "wind_kmh": 14.0}
+      ]
+    },
+    "New York": {
+      "city": "New York",
+      "country": "US",
+      "coordinates": {"lat": 40.7128, "lon": -74.0060},
+      "current": {
+        "temperature": 1.5,
+        "feels_like": -4.2,
+        "temp_min": -2.0,
+        "temp_max": 3.0,
+        "humidity": 76,
+        "pressure": 1024,
+        "wind_speed_kmh": 28.0,
+        "wind_gust_kmh": 40.0,
+        "wind_direction_deg": 320,
+        "weather_condition": "Freezing Cold / Sleet",
+        "weather_code": 611,
+        "rain_1h_mm": 4.2,
+        "cloudiness_pct": 85,
+        "visibility_meters": 5000,
+        "uv_index": 2.2,
+        "aqi_pm25": 42.0,
+        "timestamp": "2026-11-19T14:30:00Z"
+      },
+      "forecast_5d": [
+        {"day": "Day 1", "date": "2026-11-20", "temp_max": 2.0, "temp_min": -3.5, "humidity": 78, "condition": "Light Snow", "rain_prob_pct": 70, "rain_volume_mm": 8.0, "wind_kmh": 26.0},
+        {"day": "Day 2", "date": "2026-11-21", "temp_max": 0.0, "temp_min": -6.0, "humidity": 72, "condition": "Freeze Warning", "rain_prob_pct": 20, "rain_volume_mm": 1.0, "wind_kmh": 30.0},
+        {"day": "Day 3", "date": "2026-11-22", "temp_max": 3.5, "temp_min": -4.0, "humidity": 65, "condition": "Cold Sunny", "rain_prob_pct": 10, "rain_volume_mm": 0.0, "wind_kmh": 18.0},
+        {"day": "Day 4", "date": "2026-11-23", "temp_max": 6.0, "temp_min": -1.0, "humidity": 60, "condition": "Partly Cloudy", "rain_prob_pct": 15, "rain_volume_mm": 0.0, "wind_kmh": 16.0},
+        {"day": "Day 5", "date": "2026-11-24", "temp_max": 7.5, "temp_min": 1.0, "humidity": 68, "condition": "Milder", "rain_prob_pct": 30, "rain_volume_mm": 2.0, "wind_kmh": 20.0}
+      ]
+    },
+    "Sydney": {
+      "city": "Sydney",
+      "country": "AU",
+      "coordinates": {"lat": -33.8688, "lon": 151.2093},
+      "current": {
+        "temperature": 23.5,
+        "feels_like": 23.8,
+        "temp_min": 19.0,
+        "temp_max": 26.0,
+        "humidity": 62,
+        "pressure": 1016,
+        "wind_speed_kmh": 18.0,
+        "wind_gust_kmh": 24.0,
+        "wind_direction_deg": 140,
+        "weather_condition": "Clear Sky / Sunny",
+        "weather_code": 800,
+        "rain_1h_mm": 0.0,
+        "cloudiness_pct": 10,
+        "visibility_meters": 10000,
+        "uv_index": 7.0,
+        "aqi_pm25": 18.0,
+        "timestamp": "2026-11-19T14:30:00Z"
+      },
+      "forecast_5d": [
+        {"day": "Day 1", "date": "2026-11-20", "temp_max": 25.0, "temp_min": 18.0, "humidity": 60, "condition": "Sunny", "rain_prob_pct": 5, "rain_volume_mm": 0.0, "wind_kmh": 16.0},
+        {"day": "Day 2", "date": "2026-11-21", "temp_max": 27.0, "temp_min": 19.5, "humidity": 58, "condition": "Warm", "rain_prob_pct": 10, "rain_volume_mm": 0.0, "wind_kmh": 18.0},
+        {"day": "Day 3", "date": "2026-11-22", "temp_max": 26.5, "temp_min": 19.0, "humidity": 64, "condition": "Partly Cloudy", "rain_prob_pct": 20, "rain_volume_mm": 1.0, "wind_kmh": 20.0},
+        {"day": "Day 4", "date": "2026-11-23", "temp_max": 24.0, "temp_min": 18.5, "humidity": 68, "condition": "Mild Breeze", "rain_prob_pct": 15, "rain_volume_mm": 0.0, "wind_kmh": 22.0},
+        {"day": "Day 5", "date": "2026-11-24", "temp_max": 23.0, "temp_min": 17.5, "humidity": 65, "condition": "Scattered Clouds", "rain_prob_pct": 25, "rain_volume_mm": 1.5, "wind_kmh": 19.0}
+      ]
+    }
+  }
+}
