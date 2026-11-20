@@ -1,11 +1,6 @@
 # 🌦️ Weather Forecast & Risk Alert Application
 
-[![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.117-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.56-FF4B4B.svg?logo=streamlit)](https://streamlit.io/)
-[![Pytest Tests](https://img.shields.io/badge/Tests-8%20Passed-brightgreen.svg)](https://pytest.org/)
-[![Code Style](https://img.shields.io/badge/Code%20Style-PEP8%20Clean-informational.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
+
 
 An enterprise-ready, modular meteorological monitoring and hazard alerting platform. Designed for **Logistics, Agriculture, Public Municipalities, and Event Planning**, this application ingests real-time observations and 5-day predictive forecasts, executes an automated multi-hazard rule engine, exposes high-throughput REST APIs via **FastAPI**, and delivers rich interactive analytics via a **Streamlit** dashboard.
 
@@ -269,3 +264,5 @@ Developed as an applied industry-oriented project for Python Development, Data E
 
 - **GitHub**: [@your-username](https://github.com/your-username)
 - **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/)
+#   w e a t h e r - f o r e c a s t - a l e r t - a p p l i c a t i o n  
+ 
