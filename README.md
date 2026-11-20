@@ -265,4 +265,5 @@ Developed as an applied industry-oriented project for Python Development, Data E
 - **GitHub**: [@your-username](https://github.com/your-username)
 - **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/)
 #   w e a t h e r - f o r e c a s t - a l e r t - a p p l i c a t i o n  
+ #   w e a t h e r - f o r e c a s t - a l e r t - a p p l i c a t i o n  
  
